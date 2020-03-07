@@ -1,0 +1,249 @@
+* {
+
+    box-sizing: border-box;
+  
+    margin: 0;
+  
+    padding: 0px;
+}
+
+.topnav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #FF3AC5;
+  }
+  
+
+.center { 
+    text-align-last: center; 
+    font-stretch: wider;
+} 
+
+  .topnav a {
+    float: center;
+    color: #000000;
+    text-align: center;
+    padding: 3px 5px;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 400px;
+  }
+  
+  .topnav a:hover {
+    background-color:#BF2FEB;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #7CFC00;;
+    color: #EB9E9D;
+  }
+
+body {
+
+    background-color:/*rgb(249,105,180); nästan Hot Pink*/ /*#FFD700; GOLD <3*/ /*#C71585; OK mörkare röd!*/ /* #EB9E9D;*/
+}
+
+h1 {
+    color:#7CFC00;
+    font-family: roboto;
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    margin: 40px;
+}
+
+.wrapper1 {
+    width: 100%;
+    display: grid;
+    margin: 0, auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: none;
+	grid-column-gap: 10px;
+}
+
+.grid {
+	color: hsl(0, 100%, 0%);
+    padding: 2px;
+    }
+
+
+.grid1 {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+
+.responsive2 {
+    color: whitesmoke;
+    max-width: 100%;
+    height: auto;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Helvetica;
+    line-height: 300%;
+    color: whitesmoke;
+  }
+
+.grid2 {
+    grid-column-start:2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    max-width: 100%
+}
+
+.grid4 {
+    grid-column: 3;
+    grid-row: 3 / 3;
+    max-width: 100%;
+    height: auto;
+}
+
+.grid2 > img {
+    opacity: 0.6;
+    filter: alpha(opacity=600);
+    border-radius: 8%;
+}
+
+.grid1 > img {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+.grid1 > img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+  }
+
+.grid3 {
+    background-color:rgb(249,105,180); /* #FF3AC5; */
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;    
+}
+
+
+.grid3 > h2 {
+    font-family: roboto;
+    text-align: center;
+    color: whitesmoke;
+    line-height: 300% 
+}
+
+.grid2 {
+    max-width: 100%;
+    height: auto;
+}
+
+.grid2 > h1 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: roboto;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    color: 	#7CFC00;
+  }
+
+.textwrapper1 {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight:400px;
+    color:whitesmoke;
+    font-stretch: wider;
+    line-height: 300%;
+    text-align:center;
+}
+
+.wrapper3 {
+    width: 100%;
+    display: grid;
+    margin: 0, auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 10px;
+    background-color:rgb(249,105,180);
+}
+
+.wrapper3 > .grid1 {
+    grid-column-start:1;
+    grid-row-start:1;
+    grid-row-end:2;
+}
+
+.audio {
+        float: left;
+        margin-top: 120px;
+      }
+
+
+.wrapper3 > .grid2 {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+    
+ul {
+    list-style-type: square;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left:10%;
+    margin-right: 10%;
+    padding: 5px;
+  }
+
+.list {
+    font-family: Helvetica;
+    line-height: 250%;
+    color: whitesmoke;
+}
+
+.T {
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight:400px;
+    text-align: left;
+    color:black;
+    font-stretch: wider;
+    line-height: 200%;
+    text-align:center;
+}
+
+.wrapper4 {
+    width: 100%;
+    margin: 0, auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+    grid-template-rows: auto;
+    }
+
+.text {
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight:400px;
+    text-align: left;
+    color:#7CFC00;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(249,105,180);
+    margin: 5px;
+    text-align: center;
+    color:#7CFC00; 
+  }
